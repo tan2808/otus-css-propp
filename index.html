@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- шапка сайта, где находится лого, меню сайта. Обернула лого в див и меню в nav, 
@@ -12,12 +24,21 @@
       <div>
         <img src="img/Mod.svg" alt="logo" />
       </div>
-      <nav>
-        <ul>
-          <li><a href="#Biography">Biography</a></li>
-          <li><a href="#Designers">Designers</a></li>
-          <li><a href="#Testimonials">Testimonials</a></li>
-          <li><a href="#Strong points">Strong points</a></li>
+      <nav class="navigation">
+        <ul class="menu">
+          <!-- menu_active  для интерактивности-->
+          <li class="menu__item">
+            <a href="#Biography">Biography</a>
+          </li>
+          <li class="menu__item">
+            <a href="#Designers">Designers</a>
+          </li>
+          <li class="menu__item">
+            <a href="#Testimonials">Testimonials</a>
+          </li>
+          <li class="menu__item">
+            <a href="#Strong points">Strong points</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -25,23 +46,23 @@
     <section>
       <div>
         <img src="img/Background image.jpg" alt="background image" />
-        <h1>Mod Studio</h1>
-        <h2>Modern Web Studio</h2>
+        <h1 class="title">Mod Studio</h1>
+        <h2 class="subtitle">Modern Web Studio</h2>
       </div>
     </section>
     <!-- 2 секция Biography -->
     <section>
       <h2 id="Biography">Biography</h2>
       <img src="img/Katya Mills.jpg" alt="mills" />
-      <h3>Katya Mills</h3>
-      <h4>Art director</h4>
-      <ul>
-        <li>Scenography</li>
-        <li>Styling</li>
-        <li>Creative Photography</li>
-        <li>Design</li>
+      <h3 class="biography__title">Katya Mills</h3>
+      <h4 class="biography__subtitle">Art director</h4>
+      <ul class="biography__list">
+        <li class="biography__item">Scenography</li>
+        <li class="biography__item">Styling</li>
+        <li class="biography__item">Creative Photography</li>
+        <li class="biography__item">Design</li>
       </ul>
-      <q
+      <q class="biography__text"
         >The more I deal with the work as something that is my own, as something
         that is personal, the more successful it is.</q
       >
@@ -51,41 +72,41 @@
       <h2 id="Designers">Designers</h2>
       <div>
         <img src="img/Wonder.jpg" alt="wonder" />
-        <h3>Jess Wonder</h3>
-        <ul>
-          <li>From</li>
-          <li>Be more flower</li>
+        <h3 class="designers_title">Jess Wonder</h3>
+        <ul class="designers__list">
+          <li class="designers__item1">From</li>
+          <li class="designers__item2">Be more flower</li>
         </ul>
-        <ul>
-          <li>Skills</li>
-          <li>Design Strategy</li>
-          <li>Marketing</li>
+        <ul class="designers__list">
+          <li class="designers__item1">Skills</li>
+          <li class="designers__item2">Design Strategy</li>
+          <li class="designers__item2">Marketin</li>
         </ul>
       </div>
       <div>
         <img src="img/clein.jpg" alt="clein" />
-        <h3>Kameron Clein</h3>
-        <ul>
-          <li>From</li>
-          <li>Be more flower</li>
+        <h3 class="designers_title">Kameron Clein</h3>
+        <ul class="designers__list">
+          <li class="designers__item1">From</li>
+          <li class="designers__item2">Be more flower</li>
         </ul>
-        <ul>
-          <li>Skills</li>
-          <li>Design Strategy</li>
-          <li>Marketing</li>
+        <ul class="designers__list">
+          <li class="designers__item1">Skills</li>
+          <li class="designers__item2">Design Strategy</li>
+          <li class="designers__item2">Marketing</li>
         </ul>
       </div>
       <div>
         <img src="img/red.jpg" alt="red" />
-        <h3>Louisee Red</h3>
-        <ul>
-          <li>From</li>
-          <li>Be more flower</li>
+        <h3 class="designers_title">Louisee Red</h3>
+        <ul class="designers__list">
+          <li class="designers__item1">From</li>
+          <li class="designers__item2">Be more flower</li>
         </ul>
-        <ul>
-          <li>Skills</li>
-          <li>Design Strategy</li>
-          <li>Marketing</li>
+        <ul class="designers__list">
+          <li class="designers__item1">Skills</li>
+          <li class="designers__item2">Design Strategy</li>
+          <li class="designers__item2">Marketing</li>
         </ul>
       </div>
     </section>
@@ -93,13 +114,19 @@
     <section>
       <h2 id="Testimonials">Testimonials</h2>
       <img src="img/Testimonials.jpg" alt="testimonials" />
-      <h3>Creativity</h3>
-      <a href="mailto:www.whitepapers.com">www.whitepapers.com</a>
-      <h3>Creativity</h3>
-      <a href="mailto:www.whitepapers.com">www.whitepapers.com</a>
-      <h3>Website</h3>
-      <a href="mailto:www.whitepapers.com">www.whitepapers.com</a>
-      <q>
+      <h4>Creativity</h4>
+      <a class="testimonials__item" href="mailto:www.whitepapers.com"
+        >www.whitepapers.com</a
+      >
+      <h4>Creativity</h4>
+      <a class="testimonials__item" href="mailto:www.whitepapers.com"
+        >www.whitepapers.com</a
+      >
+      <h4>Website</h4>
+      <a class="testimonials__item" href="mailto:www.whitepapers.com"
+        >www.whitepapers.com</a
+      >
+      <q class="testimonials__text">
         I just really want to do good work and work with some great people,
         people who challenge me.
       </q>
@@ -108,32 +135,36 @@
     <!-- 5 секция Strong points -->
     <section>
       <h2 id="Strong points">Strong points</h2>
-      <h3>Strengths</h3>
+      <h3 class="strongpoints__title">Strengths</h3>
       <img src="img/points1.jpg" alt="points1" />
       <img src="img/points2.jpg" alt="points2" />
       <img src="img/points3.jpg" alt="points3" />
-      <ul>
-        <li>Interiors</li>
-        <li>Outdoors</li>
-        <li>Portraits</li>
-        <li>Styling</li>
-        <li>Architecture</li>
-        <li>Design</li>
-        <li>Celebrations</li>
-        <li>Fashion</li>
-        <li>Nature</li>
+      <ul class="strongpoints__list">
+        <li class="strongpoints__item">Interiors</li>
+        <li class="strongpoints__item">Outdoors</li>
+        <li class="strongpoints__item">Portraits</li>
+        <li class="strongpoints__item">Styling</li>
+        <li class="strongpoints__item">Architecture</li>
+        <li class="strongpoints__item">Design</li>
+        <li class="strongpoints__item">Celebrations</li>
+        <li class="strongpoints__item">Fashion</li>
+        <li class="strongpoints__item">Nature</li>
       </ul>
     </section>
     <!-- подвал сайта  -->
     <footer>
-      <div>
+      <div class="contacts">
         <address>
-          <a href="tel:+7921123-45-67">+7921123-45-67</a>
-          <a href="mailto:info@modstudio.com">info@modstudio.com</a>
+          <a class="contacts__item1" href="tel:+7921123-45-67"
+            >+7921123-45-67</a
+          >
+          <a class="contacts__item2" href="mailto:info@modstudio.com"
+            >info@modstudio.com</a
+          >
         </address>
       </div>
-      <div>A product of MOD</div>
-      <div>2023 Mod Media. All rights reserved</div>
+      <div class="footer__links-mod">A product of MOD</div>
+      <div class="footer__links-right">2023 Mod Media. All rights reserved</div>
     </footer>
   </body>
 </html>

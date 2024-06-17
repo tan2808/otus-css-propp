@@ -1,0 +1,120 @@
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+.menu {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.13px;
+  }
+
+  .title {
+
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 86px;
+    line-height: 103.2px;
+  }
+  .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.44px; 
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+  .biography__list {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.09px;
+  }
+  .biography__title {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 86px;
+    line-height: 114.64px;
+  }
+  .biography__subtitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.09px;
+  }
+
+  .biography__text {
+    font-family: "Bitter", serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31.2px;
+  }
+  .designers_title {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 18.75px;
+  }
+  .designers__item1
+  {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+  .designers__item2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+  .testimonials__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px; 
+  }
+ .testimonials__text {
+    font-family: "Bitter", serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38.4px;
+ }
+ .strongpoints__title {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 86px;
+    line-height: 86px;
+ }
+  .strongpoints__list
+{
+  font-family: "Bitter", serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40.8px;
+}
+.contacts__item1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+}
+.contacts__item2 {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 26px; 
+}
+
+.footer__links-mod {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.09px; 
+}
+
+.footer__links-right {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px; 
+}
